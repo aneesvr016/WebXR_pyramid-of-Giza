@@ -51,6 +51,7 @@ namespace PyramidOfGiza
         private Transform originalDriverParent;
         private MonoBehaviour desktopController;
         private MonoBehaviour smoothLocomotion;
+        private UnityEngine.AI.NavMeshAgent driverNavMeshAgent;
 
         public bool IsBeingRidden => currentDriver != null;
 
@@ -230,6 +231,17 @@ namespace PyramidOfGiza
             currentDriver = driver;
             originalDriverParent = driver.transform.parent;
 
+            // Find and disable NavMeshAgent to prevent conflicts with parenting and camel movement
+            driverNavMeshAgent = driver.GetComponent<UnityEngine.AI.NavMeshAgent>();
+            if (driverNavMeshAgent == null)
+            {
+                driverNavMeshAgent = driver.GetComponentInChildren<UnityEngine.AI.NavMeshAgent>();
+            }
+            if (driverNavMeshAgent != null)
+            {
+                driverNavMeshAgent.enabled = false;
+            }
+
             // 1. Parent rig to seat
             driver.transform.SetParent(driversSeat);
             driver.transform.localPosition = Vector3.zero;
@@ -309,6 +321,21 @@ namespace PyramidOfGiza
             // 3. Re-enable locomotion components
             if (desktopController != null) desktopController.enabled = true;
             if (smoothLocomotion != null) smoothLocomotion.enabled = true;
+
+            // Re-enable NavMeshAgent and warp it to the exit position
+            if (driverNavMeshAgent != null)
+            {
+                driverNavMeshAgent.enabled = true;
+                if (exitPosition != null)
+                {
+                    driverNavMeshAgent.Warp(exitPosition.position);
+                }
+                else
+                {
+                    driverNavMeshAgent.Warp(currentDriver.transform.position);
+                }
+                driverNavMeshAgent = null;
+            }
 
             // 4. Destroy the Dismount button
             if (instantiatedDismountCanvas != null)
