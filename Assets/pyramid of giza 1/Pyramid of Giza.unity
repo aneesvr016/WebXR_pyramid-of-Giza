@@ -10739,6 +10739,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 731741917}
     m_Modifications:
+    - target: {fileID: 997822962741263286, guid: 70cca72d69688cd4fb609e6bc3bad4b0, type: 3}
+      propertyPath: dismountCanvasLocalPosition.x
+      value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 997822962741263286, guid: 70cca72d69688cd4fb609e6bc3bad4b0, type: 3}
+      propertyPath: dismountCanvasLocalPosition.y
+      value: 2.4
+      objectReference: {fileID: 0}
     - target: {fileID: 5160036652334291050, guid: 70cca72d69688cd4fb609e6bc3bad4b0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 262.38013

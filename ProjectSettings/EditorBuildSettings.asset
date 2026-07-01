@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Metaverse/Spaces/AvatarSelection/Scenes/AvatarSelection.unity
     guid: b89ebdf1b470bdd45aad24418c48162c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Metaverse/Spaces/Hub/Scenes/Hub.unity
     guid: 92037d849f7ae7b4597e630166aacb31
   - enabled: 1

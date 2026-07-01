@@ -35,7 +35,7 @@ namespace PyramidOfGiza
 
         [Header("Dismount Button Settings")]
         public GameObject dismountCanvasPrefab;
-        public Vector3 dismountCanvasLocalPosition = new Vector3(0f, 2.8f, 1.2f);
+        public Vector3 dismountCanvasLocalPosition = new Vector3(-0.35f, 2.4f, .5f);
         public Vector3 dismountCanvasLocalRotation = new Vector3(15f, 180f, 0f);
 
         private GameObject instantiatedDismountCanvas;
@@ -276,7 +276,7 @@ namespace PyramidOfGiza
                 instantiatedDismountCanvas.name = "DismountCanvas";
                 instantiatedDismountCanvas.transform.localPosition = dismountCanvasLocalPosition;
                 instantiatedDismountCanvas.transform.localRotation = Quaternion.Euler(dismountCanvasLocalRotation);
-                instantiatedDismountCanvas.transform.localScale = new Vector3(0.007f, 0.007f, 0.007f);
+                instantiatedDismountCanvas.transform.localScale = new Vector3(0.003f, 0.003f, 0.003f);
 
                 var tmp = instantiatedDismountCanvas.GetComponentInChildren<TMPro.TextMeshProUGUI>();
                 if (tmp != null)
