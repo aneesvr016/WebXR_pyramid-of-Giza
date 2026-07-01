@@ -11,10 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Metaverse/Spaces/AvatarSelection/Scenes/AvatarSelection.unity
     guid: b89ebdf1b470bdd45aad24418c48162c
+  - enabled: 1
+    path: Assets/Manta_Ray_Exhibit/Manta Ray Shoal SSU.unity
+    guid: ac0a81700f47f1c45a728f3dfe0f68ca
   - enabled: 0
     path: Assets/Metaverse/Spaces/Hub/Scenes/Hub.unity
     guid: 92037d849f7ae7b4597e630166aacb31
-  - enabled: 1
+  - enabled: 0
     path: Assets/pyramid of giza 1/Pyramid of Giza.unity
     guid: 2a608611935355645b664cfa202a4cba
   - enabled: 0
