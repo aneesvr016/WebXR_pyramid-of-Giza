@@ -19,7 +19,7 @@ namespace Fusion.Addons.LocomotionValidation
     {
         HardwareLocomotionValidation hardwareLocomotionValidation;
         NavMeshAgent agent;
-        public float navMeshDistanceTolerance = 0.5f;
+        public float navMeshDistanceTolerance = 1.5f;
 
         private void Awake()
         {
@@ -56,7 +56,7 @@ namespace Fusion.Addons.LocomotionValidation
         public bool IsValidHeadPosition(Vector3 targetPos)
         {
             // Check if it would be in a non trigger collider
-            Collider[] headColliders = UnityEngine.Physics.OverlapBox(targetPos, 0.2f * Vector3.one, Quaternion.identity);
+            Collider[] headColliders = UnityEngine.Physics.OverlapBox(targetPos, 0.05f * Vector3.one, Quaternion.identity);
             foreach (var c in headColliders)
             {
                 if (c.isTrigger == false)

@@ -189,6 +189,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: bc8b39d036eff734a8fa2dd063ac681d, type: 3}
   m_PrefabInstance: {fileID: 12082504}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &15013042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1972875260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &15013046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15013042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
+--- !u!1 &28852947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 642219253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &28852951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28852947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1 &30779872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,6 +1122,24 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &127231767 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 214198239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &127231771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127231767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1001 &140208123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1218,6 +1272,24 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.8
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &145646656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 235836981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &145646660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145646656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1001 &147901801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1570,6 +1642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -1586,16 +1662,38 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 469542412}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &157273008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3665980158250632966, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
   m_PrefabInstance: {fileID: 157273007}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &164302855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1486147716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &164302859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164302855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1 &180507443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1748,42 @@ Transform:
   - {fileID: 665835440}
   m_Father: {fileID: 873001445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &181308090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1894204248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &181308094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181308090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
+--- !u!1 &193912586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1107260451}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &193912590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193912586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1 &204295396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,6 +1998,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1719772a96111a5438eb152462aebbc7, type: 3}
   m_PrefabInstance: {fileID: 206453739}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &206488889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1523770496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &206488893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206488889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1 &209927637
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,6 +2284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -2148,10 +2304,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 127231771}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &214198240 stripped
 Transform:
@@ -2394,6 +2554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -2410,10 +2574,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 145646660}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &235836982 stripped
 Transform:
@@ -2603,6 +2771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -2619,10 +2791,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 814963750}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &264297718 stripped
 Transform:
@@ -2908,6 +3084,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2830221632101341090, guid: 7dea58fc7fc362944bf202b523474ecd, type: 3}
   m_PrefabInstance: {fileID: 275909501}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &287902324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1351652127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &287902328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287902324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1001 &290665458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3096,6 +3290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -3112,10 +3310,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1544862705}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &304327708 stripped
 Transform:
@@ -4998,6 +5200,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &371009758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1597122564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &371009762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371009758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
+--- !u!1 &372076851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1700139437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &372076855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372076851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!43 &382716554
 Mesh:
   m_ObjectHideFlags: 0
@@ -5751,6 +5989,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5383368144354580120, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+--- !u!1 &469542408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 157273007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &469542412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469542408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1 &470169028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6285,6 +6541,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 92862757c0b15b149a1b6e306724ccc5, type: 3}
   m_PrefabInstance: {fileID: 498442044}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &532903098 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 7118896752265991126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &532903102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532903098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1 &535284204
 GameObject:
   m_ObjectHideFlags: 0
@@ -7864,6 +8138,70 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: bc8b39d036eff734a8fa2dd063ac681d, type: 3}
   m_PrefabInstance: {fileID: 627533022}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &641757875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641757877}
+  - component: {fileID: 641757876}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &641757876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641757875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshSurface
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.12666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 8657288a9e012bf458ed6b133e5d4401, type: 2}
+  m_BuildHeightMesh: 0
+--- !u!4 &641757877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641757875}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &642219253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7920,6 +8258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -7936,10 +8278,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 28852951}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &642219254 stripped
 Transform:
@@ -8656,6 +9002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -8672,10 +9022,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2115511021}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &665835440 stripped
 Transform:
@@ -9203,6 +9557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -9219,10 +9577,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 769357888}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &745925655 stripped
 Transform:
@@ -9314,6 +9676,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1719772a96111a5438eb152462aebbc7, type: 3}
   m_PrefabInstance: {fileID: 747205784}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &751938656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1505675916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &751938660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751938656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1 &752183116
 GameObject:
   m_ObjectHideFlags: 0
@@ -9463,6 +9843,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4127418444735171106, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+--- !u!1 &769357884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 745925654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &769357888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769357884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!64 &771783258
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9720,6 +10118,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.06000429, y: 0.11063425, z: 0.0017572417}
   m_Center: {x: 0.13121425, y: 0.0000013208398, z: -0.018490974}
+--- !u!1 &814963746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 264297717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &814963750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814963746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1001 &815488134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10716,6 +11132,24 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &932204446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1294855835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &932204450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932204446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!43 &939388613
 Mesh:
   m_ObjectHideFlags: 0
@@ -10924,6 +11358,24 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &959506478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1780736958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &959506482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959506478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1001 &978574441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12738,6 +13190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -12754,10 +13210,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 193912590}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1107260452 stripped
 Transform:
@@ -13158,9 +13618,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1126568331}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 843f1df22955d4c8193e21ccb10c9077, type: 3}
+  m_Script: {fileID: 11500000, guid: b577d7e02c1dcaa49934da91d399bce2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaQuestManager
+  state: 0
+  questBoardPrefab: {fileID: 3469558636629924734, guid: d738755574cd5144eadf699e4fdbc047, type: 3}
+  boardPosition: {x: 10.5, y: -0.4, z: 0}
+  boardRotation: {x: 0, y: 90, z: 0}
+  successSound: {fileID: 0}
+  successParticlePrefab: {fileID: 1560195616043144, guid: 9efac3ef75f3a054f93c32ffa91c05e7, type: 3}
 --- !u!1 &1133696977
 GameObject:
   m_ObjectHideFlags: 0
@@ -14424,11 +14890,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8618168871700558335, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8345867524175904545, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7713509450783353184, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_ScaleInLightmap
@@ -14436,11 +14902,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7527954129569262175, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7237301197581771601, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7237301197581771601, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -7049633216642273954, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7049633216642273954, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14452,7 +14926,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6383790194051003615, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6237247662098826510, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6237247662098826510, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -6237247662098826510, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14464,19 +14946,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4885506208192461737, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3862739090831940512, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3560955481644802478, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3230450473281901603, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3209032635599945136, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_ScaleInLightmap
@@ -14492,11 +14974,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 245727463799976190, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 499402872463883817, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_Name
@@ -14504,43 +14986,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2136891672544284499, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2939604559290654326, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2998476896743052487, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4172135355465255382, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_ScaleInLightmap
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4586825542726370685, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586825542726370685, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731954455711642624, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4731954455711642624, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_ScaleInLightmap
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6462920600311577887, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6760406097386110100, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808237847408211662, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6808237847408211662, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_ScaleInLightmap
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 7561689862600589418, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+    - target: {fileID: 7377947961451532332, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7377947961451532332, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7561689862600589418, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8250168306906053315, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8698059654071069073, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
       propertyPath: m_ScaleInLightmap
@@ -15195,6 +15705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -15211,10 +15725,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 932204450}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1294855836 stripped
 Transform:
@@ -15302,7 +15820,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1310071283
 Transform:
   m_ObjectHideFlags: 0
@@ -15629,7 +16147,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8068c5d3b0bbf6648897d2c032be4d4c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1312076397}
+      addedObject: {fileID: 1312076401}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8068c5d3b0bbf6648897d2c032be4d4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1312076400}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8068c5d3b0bbf6648897d2c032be4d4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1312076399}
   m_SourcePrefab: {fileID: 100100000, guid: 8068c5d3b0bbf6648897d2c032be4d4c, type: 3}
 --- !u!4 &1312076393 stripped
 Transform:
@@ -15641,7 +16165,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8068c5d3b0bbf6648897d2c032be4d4c, type: 3}
   m_PrefabInstance: {fileID: 1312076392}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1312076397
+--- !u!114 &1312076399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15650,9 +16174,134 @@ MonoBehaviour:
   m_GameObject: {fileID: 1312076394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c033be9331b1439aba20929926c8909, type: 3}
+  m_Script: {fileID: 11500000, guid: 2acae1e0d4adf4d4a8a55f5619d93bbc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaNPCInteraction
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
+  talkAnimationState: Talking
+  idleAnimationState: Idle
+  canvasHeight: 1.9
+  startsQuestOnInteraction: 0
+--- !u!136 &1312076400
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312076394}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.9, z: 0}
+--- !u!82 &1312076401
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312076394}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 060cfccc2102371428d8e7fec4bc2483, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 15
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1323747827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15759,7 +16408,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0b89f7a9e4f1e6458c8745e2221f918, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1323747830}
+      addedObject: {fileID: 1323747834}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0b89f7a9e4f1e6458c8745e2221f918, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1323747833}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0b89f7a9e4f1e6458c8745e2221f918, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1323747832}
   m_SourcePrefab: {fileID: 100100000, guid: f0b89f7a9e4f1e6458c8745e2221f918, type: 3}
 --- !u!4 &1323747828 stripped
 Transform:
@@ -15771,7 +16426,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f0b89f7a9e4f1e6458c8745e2221f918, type: 3}
   m_PrefabInstance: {fileID: 1323747827}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1323747830
+--- !u!114 &1323747832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15780,9 +16435,134 @@ MonoBehaviour:
   m_GameObject: {fileID: 1323747829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c033be9331b1439aba20929926c8909, type: 3}
+  m_Script: {fileID: 11500000, guid: 2acae1e0d4adf4d4a8a55f5619d93bbc, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaNPCInteraction
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
+  talkAnimationState: Talking
+  idleAnimationState: Idle
+  canvasHeight: 2
+  startsQuestOnInteraction: 1
+--- !u!136 &1323747833
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323747829}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.9, z: 0}
+--- !u!82 &1323747834
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323747829}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: de3ccdb09f7dbc64581bf9f48ffcfcb4, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 15
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1327041061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15863,7 +16643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1327466783}
   - component: {fileID: 1327466785}
-  - component: {fileID: 1327466784}
+  - component: {fileID: 1327466786}
   m_Layer: 0
   m_Name: Trigger Event
   m_TagString: Untagged
@@ -15886,18 +16666,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 180507444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1327466784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1327466782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24533cd6da2394ed2bea6783b0af62c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &1327466785
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -15917,8 +16685,21 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1327466786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327466782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1001 &1347466356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16060,6 +16841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -16076,10 +16861,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 287902328}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1351652128 stripped
 Transform:
@@ -17024,6 +17813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -17040,10 +17833,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 164302859}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1486147717 stripped
 Transform:
@@ -17176,6 +17973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -17192,10 +17993,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 751938660}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1505675917 stripped
 Transform:
@@ -17422,6 +18227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -17438,10 +18247,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 206488893}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1523770497 stripped
 Transform:
@@ -17514,6 +18327,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 19e55ea3764bc524ba0bad261484bcec, type: 3}
   m_PrefabInstance: {fileID: 1530148754}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1538504196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 1988229124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1538504200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538504196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1001 &1539948409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17602,6 +18433,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1719772a96111a5438eb152462aebbc7, type: 3}
   m_PrefabInstance: {fileID: 1539948409}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1544862701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 304327707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1544862705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544862701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1 &1547692000
 GameObject:
   m_ObjectHideFlags: 0
@@ -18449,6 +19298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -18465,10 +19318,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 371009762}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1597122565 stripped
 Transform:
@@ -19802,6 +20659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -19818,10 +20679,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 372076855}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1700139438 stripped
 Transform:
@@ -22148,6 +23013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -22164,10 +23033,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 959506482}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1780736959 stripped
 Transform:
@@ -22741,6 +23614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -22757,10 +23634,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 181308094}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1894204249 stripped
 Transform:
@@ -23307,6 +24188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -23323,10 +24208,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 15013046}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1972875261 stripped
 Transform:
@@ -23474,6 +24363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrimp (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: onEnterEvent.questEvent.events.Array.size
       value: 1
@@ -23490,10 +24383,14 @@ PrefabInstance:
       propertyPath: onEnterEvent.questEvent.events.Array.data[0].questEventType
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1538504200}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!4 &1988229125 stripped
 Transform:
@@ -23772,9 +24669,25 @@ PrefabInstance:
       propertyPath: headsetAvailableAction.m_Action.m_Name
       value: Headset Available
       objectReference: {fileID: 0}
+    - target: {fileID: 197011185377130584, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
+      propertyPath: m_Height
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 197011185377130584, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
+      propertyPath: m_Radius
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 197011185377130584, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1158517094544467358, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
       propertyPath: m_RenderPostProcessing
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294645137804913013, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
+      propertyPath: navMeshDistanceTolerance
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2627278854448654021, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
       propertyPath: menuManager
@@ -23862,9 +24775,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1839368876559726474, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
+    - {fileID: 197011185377130584, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7197107726467757018, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2004197198}
   m_SourcePrefab: {fileID: 100100000, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
 --- !u!114 &2004197178 stripped
 MonoBehaviour:
@@ -23887,6 +24804,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7197107726467757018, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
   m_PrefabInstance: {fileID: 2004197177}
   m_PrefabAsset: {fileID: 0}
+--- !u!195 &2004197198
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004197180}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &2006098132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24418,6 +25357,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7155611983362779646, guid: b8ff51f91966c234a81f1a7f76b06cc2, type: 3}
+--- !u!1 &2115511017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+  m_PrefabInstance: {fileID: 665835439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2115511021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115511017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44cddaa859b7ef449373cafefda94c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MantaRayShoal.MantaCollectible
+  interactionCanvasPrefab: {fileID: 3469558636629924734, guid: f2b210977f852d24eb7af45ef339120f, type: 3}
 --- !u!1001 &2119018262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24961,6 +25918,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6960262650139558525, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7203322160163161287, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -25033,10 +25994,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8968820092843973093, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4551901351986242476, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 532903102}
   m_SourcePrefab: {fileID: 100100000, guid: 860e14b21a6e0c14a9fb2f617075de57, type: 3}
 --- !u!1 &7118896752265991127 stripped
 GameObject:
@@ -25060,3 +26025,4 @@ SceneRoots:
   - {fileID: 1755420760}
   - {fileID: 1138634879}
   - {fileID: 308949765}
+  - {fileID: 641757877}
