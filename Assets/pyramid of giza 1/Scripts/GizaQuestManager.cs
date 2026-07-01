@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.ProBuilder.Shapes;
 
 namespace PyramidOfGiza
 {
@@ -189,7 +190,9 @@ namespace PyramidOfGiza
         {
             if (khFound && fFound && uFound)
             {
+                pyramidDoor.SetActive(false);
                 CompleteQuest();
+                
             }
         }
 
