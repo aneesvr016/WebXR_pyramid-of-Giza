@@ -60,7 +60,7 @@ namespace PyramidOfGiza
             {
                 instantiatedBoard = Instantiate(questBoardPrefab, boardPosition, Quaternion.Euler(boardRotation));
                 instantiatedBoard.name = "QuestBoard";
-                instantiatedBoard.transform.localScale = new Vector3(0.015f, 0.035f, 0.015f);
+                instantiatedBoard.transform.localScale = new Vector3(0.0038f, 0.0038f, 0.0038f);
 
                 // Disable button and interactions on this status board
                 var btn = instantiatedBoard.GetComponentInChildren<UnityEngine.UI.Button>();
@@ -133,12 +133,12 @@ namespace PyramidOfGiza
 
             if (state == QuestState.NotStarted)
             {
-                boardText.text = "<color=#FFCC00><size=150%>Ancient Puzzle</size></color>\n\nTalk to the Archaeologist nearby to begin the quest.";
+                boardText.text = "<color=#FFCC00><size=100%>Ancient Puzzle</size></color>\n\nTalk to the Archaeologist nearby to begin the quest.";
             }
             else if (state == QuestState.InProgress)
             {
                 System.Text.StringBuilder sb = new System.Text.StringBuilder();
-                sb.AppendLine("<color=#FFCC00><size=150%>Spell KHUFU</size></color>\n");
+                sb.AppendLine("<color=#FFCC00><size=100%>Spell KHUFU</size></color>\n");
                 sb.AppendLine("Find the hidden sacred letters:\n");
 
                 // Always show KH Glyph
@@ -181,7 +181,7 @@ namespace PyramidOfGiza
             }
             else if (state == QuestState.Completed)
             {
-                boardText.text = "<color=#00FF00><size=150%>Quest Completed!</size></color>\n\nThe door of Pharaoh Khufu's pyramid is unlocked.\n\nYou may now enter!";
+                boardText.text = "<color=#00FF00><size=100%>Quest Completed!</size></color>\n\nThe door of Pharaoh Khufu's pyramid is unlocked.\n\nYou may now enter!";
             }
         }
 
