@@ -1,0 +1,2226 @@
+fileFormatVersion: 2
+guid: 55f8467e548184f4dbf43a6b209ef15d
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Jnt_Sifon_R_mmm
+  - first:
+      1: 100002
+    second: Jnt_Pico_mmm
+  - first:
+      1: 100004
+    second: Jnt_Head_mmm
+  - first:
+      1: 100006
+    second: joint48
+  - first:
+      1: 100008
+    second: joint47
+  - first:
+      1: 100010
+    second: joint46
+  - first:
+      1: 100012
+    second: joint45
+  - first:
+      1: 100042
+    second: Jnt_AliTent_B_2
+  - first:
+      1: 100044
+    second: Jnt_AliTent_B_1
+  - first:
+      1: 100046
+    second: Calamar_Manto
+  - first:
+      1: 100048
+    second: joint44
+  - first:
+      1: 100050
+    second: joint43
+  - first:
+      1: 100052
+    second: Calamar_Ojo_mmr
+  - first:
+      1: 100054
+    second: Calamar_Ojo_mml
+  - first:
+      1: 100056
+    second: joint35
+  - first:
+      1: 100058
+    second: joint50
+  - first:
+      1: 100060
+    second: joint49
+  - first:
+      1: 100062
+    second: joint39
+  - first:
+      1: 100064
+    second: joint38
+  - first:
+      1: 100066
+    second: joint37
+  - first:
+      1: 100068
+    second: joint36
+  - first:
+      1: 100070
+    second: Jnt_Eye_mmr
+  - first:
+      1: 100072
+    second: Jnt_AliTent_B_9
+  - first:
+      1: 100074
+    second: Jnt_AliTent_B_8
+  - first:
+      1: 100076
+    second: Jnt_AliTent_B_7
+  - first:
+      1: 100078
+    second: Jnt_AliTent_B_6
+  - first:
+      1: 100080
+    second: Jnt_AliTent_B_5
+  - first:
+      1: 100082
+    second: Jnt_AliTent_B_4
+  - first:
+      1: 100084
+    second: Jnt_AliTent_B_3
+  - first:
+      1: 100086
+    second: joint1
+  - first:
+      1: 100088
+    second: joint2
+  - first:
+      1: 100090
+    second: Jnt_Eye_mml
+  - first:
+      1: 100092
+    second: Calamar_Cuerpo
+  - first:
+      1: 100094
+    second: Calamar_Pico_Inf
+  - first:
+      1: 100096
+    second: Calamar_Pico_Sup
+  - first:
+      1: 100098
+    second: Jnt_manto_aleron_N_mmr3
+  - first:
+      1: 100100
+    second: Jnt_manto_aleron_N_mmr1
+  - first:
+      1: 100102
+    second: Jnt_Manto_end_mmm
+  - first:
+      1: 100104
+    second: Jnt_Manto_03_mmm 1
+  - first:
+      1: 100106
+    second: Jnt_Manto_04_mmm
+  - first:
+      1: 100108
+    second: Jnt_Manto_03_mmm
+  - first:
+      1: 100110
+    second: Jnt_Manto_02_mmm
+  - first:
+      1: 100112
+    second: Jnt_Manto_01_mmm
+  - first:
+      1: 100114
+    second: Jnt_Tentaculo_D_end_12
+  - first:
+      1: 100116
+    second: Jnt_Tentaculo_D_12
+  - first:
+      1: 100118
+    second: Jnt_Tentaculo_D_11
+  - first:
+      1: 100120
+    second: Jnt_Tentaculo_D_10
+  - first:
+      1: 100122
+    second: Jnt_Tentaculo_D_9
+  - first:
+      1: 100124
+    second: Jnt_Tentaculo_D_8
+  - first:
+      1: 100126
+    second: Jnt_Tentaculo_D_7
+  - first:
+      1: 100128
+    second: Jnt_Tentaculo_D_6
+  - first:
+      1: 100130
+    second: Jnt_Tentaculo_D_5
+  - first:
+      1: 100132
+    second: Jnt_Tentaculo_D_4
+  - first:
+      1: 100134
+    second: Jnt_Tentaculo_D_3
+  - first:
+      1: 100136
+    second: Jnt_Tentaculo_D_2
+  - first:
+      1: 100138
+    second: Jnt_Tentaculo_D_1
+  - first:
+      1: 100140
+    second: Jnt_Tentaculo_H_end_12
+  - first:
+      1: 100142
+    second: Jnt_Tentaculo_H_12
+  - first:
+      1: 100144
+    second: Jnt_Tentaculo_H_11
+  - first:
+      1: 100146
+    second: Jnt_Tentaculo_H_10
+  - first:
+      1: 100148
+    second: Jnt_Tentaculo_H_9
+  - first:
+      1: 100150
+    second: Jnt_Tentaculo_H_8
+  - first:
+      1: 100152
+    second: Jnt_Tentaculo_H_7
+  - first:
+      1: 100154
+    second: Jnt_Tentaculo_H_6
+  - first:
+      1: 100156
+    second: Jnt_Tentaculo_H_5
+  - first:
+      1: 100158
+    second: Jnt_Tentaculo_H_4
+  - first:
+      1: 100160
+    second: Jnt_Tentaculo_H_3
+  - first:
+      1: 100162
+    second: Jnt_Tentaculo_H_2
+  - first:
+      1: 100164
+    second: Jnt_Tentaculo_H_1
+  - first:
+      1: 100166
+    second: Jnt_AliTent_B_Hand_end
+  - first:
+      1: 100168
+    second: Jnt_AliTent_B_Hand
+  - first:
+      1: 100170
+    second: Jnt_AliTent_B_12
+  - first:
+      1: 100172
+    second: Jnt_AliTent_B_11
+  - first:
+      1: 100174
+    second: Jnt_AliTent_B_10
+  - first:
+      1: 100176
+    second: Jnt_Tentaculo_F_13
+  - first:
+      1: 100178
+    second: Jnt_Tentaculo_F_12
+  - first:
+      1: 100180
+    second: Jnt_Tentaculo_F_11
+  - first:
+      1: 100182
+    second: Jnt_Tentaculo_F_10
+  - first:
+      1: 100184
+    second: Jnt_Tentaculo_F_9
+  - first:
+      1: 100186
+    second: Jnt_Tentaculo_F_8
+  - first:
+      1: 100188
+    second: Jnt_Tentaculo_F_7
+  - first:
+      1: 100190
+    second: Jnt_Tentaculo_F_6
+  - first:
+      1: 100192
+    second: Jnt_Tentaculo_F_5
+  - first:
+      1: 100194
+    second: Jnt_Tentaculo_F_4
+  - first:
+      1: 100196
+    second: Jnt_Tentaculo_F_3
+  - first:
+      1: 100198
+    second: Jnt_Tentaculo_F_2
+  - first:
+      1: 100200
+    second: Jnt_Tentaculo_F_1
+  - first:
+      1: 100202
+    second: Jnt_Tentaculo_E_end_12
+  - first:
+      1: 100204
+    second: Jnt_Tentaculo_E_12
+  - first:
+      1: 100206
+    second: Jnt_Tentaculo_E_11
+  - first:
+      1: 100208
+    second: Jnt_Tentaculo_E_10
+  - first:
+      1: 100210
+    second: Jnt_Tentaculo_E_9
+  - first:
+      1: 100212
+    second: Jnt_Tentaculo_E_8
+  - first:
+      1: 100214
+    second: Jnt_Tentaculo_E_7
+  - first:
+      1: 100216
+    second: Jnt_Tentaculo_E_6
+  - first:
+      1: 100218
+    second: Jnt_Tentaculo_E_5
+  - first:
+      1: 100220
+    second: Jnt_Tentaculo_E_4
+  - first:
+      1: 100222
+    second: Jnt_Tentaculo_E_3
+  - first:
+      1: 100224
+    second: Jnt_Tentaculo_E_2
+  - first:
+      1: 100226
+    second: Jnt_Tentaculo_E_1
+  - first:
+      1: 100228
+    second: Jnt_Tentaculo_G_end_12
+  - first:
+      1: 100230
+    second: Jnt_Tentaculo_G_12
+  - first:
+      1: 100232
+    second: Jnt_Tentaculo_G_11
+  - first:
+      1: 100234
+    second: Jnt_Tentaculo_G_10
+  - first:
+      1: 100236
+    second: Jnt_Tentaculo_G_9
+  - first:
+      1: 100238
+    second: Jnt_Tentaculo_G_8
+  - first:
+      1: 100240
+    second: Jnt_Tentaculo_G_7
+  - first:
+      1: 100242
+    second: Jnt_Tentaculo_G_6
+  - first:
+      1: 100244
+    second: Jnt_Tentaculo_G_5
+  - first:
+      1: 100246
+    second: Jnt_Tentaculo_G_4
+  - first:
+      1: 100248
+    second: Jnt_Tentaculo_G_3
+  - first:
+      1: 100250
+    second: Jnt_Tentaculo_G_2
+  - first:
+      1: 100252
+    second: Jnt_Tentaculo_G_1
+  - first:
+      1: 100254
+    second: Jnt_Tentaculo_B_end_12
+  - first:
+      1: 100256
+    second: Jnt_Tentaculo_B_12
+  - first:
+      1: 100258
+    second: Jnt_Tentaculo_B_11
+  - first:
+      1: 100260
+    second: Jnt_Tentaculo_B_10
+  - first:
+      1: 100262
+    second: Jnt_Tentaculo_B_9
+  - first:
+      1: 100264
+    second: Jnt_Tentaculo_B_8
+  - first:
+      1: 100266
+    second: Jnt_Tentaculo_B_7
+  - first:
+      1: 100268
+    second: Jnt_Tentaculo_B_6
+  - first:
+      1: 100270
+    second: Jnt_Tentaculo_B_5
+  - first:
+      1: 100272
+    second: Jnt_Tentaculo_B_4
+  - first:
+      1: 100274
+    second: Jnt_Tentaculo_B_3
+  - first:
+      1: 100276
+    second: Jnt_Tentaculo_B_2
+  - first:
+      1: 100278
+    second: Jnt_Tentaculo_B_1
+  - first:
+      1: 100280
+    second: Jnt_AliTent_A_Hand_end
+  - first:
+      1: 100282
+    second: Jnt_AliTent_A_Hand
+  - first:
+      1: 100284
+    second: Jnt_AliTent_A_12
+  - first:
+      1: 100286
+    second: Jnt_AliTent_A_11
+  - first:
+      1: 100288
+    second: Jnt_AliTent_A_10
+  - first:
+      1: 100290
+    second: Jnt_Tentaculo_A_end_12
+  - first:
+      1: 100292
+    second: Jnt_Tentaculo_A_12
+  - first:
+      1: 100294
+    second: Jnt_Tentaculo_A_11
+  - first:
+      1: 100296
+    second: Jnt_Tentaculo_A_10
+  - first:
+      1: 100298
+    second: Jnt_Tentaculo_A_9
+  - first:
+      1: 100300
+    second: Jnt_Tentaculo_A_8
+  - first:
+      1: 100302
+    second: Jnt_Tentaculo_A_7
+  - first:
+      1: 100304
+    second: Jnt_Tentaculo_A_6
+  - first:
+      1: 100306
+    second: Jnt_Tentaculo_A_5
+  - first:
+      1: 100308
+    second: Jnt_Tentaculo_A_4
+  - first:
+      1: 100310
+    second: Jnt_Tentaculo_A_3
+  - first:
+      1: 100312
+    second: Jnt_Tentaculo_A_2
+  - first:
+      1: 100314
+    second: Jnt_Tentaculo_A_1
+  - first:
+      1: 100316
+    second: Jnt_Tentaculo_I_13
+  - first:
+      1: 100318
+    second: Jnt_Tentaculo_I_12
+  - first:
+      1: 100320
+    second: Jnt_Tentaculo_I_11
+  - first:
+      1: 100322
+    second: Jnt_Tentaculo_I_10
+  - first:
+      1: 100324
+    second: Jnt_Tentaculo_I_9
+  - first:
+      1: 100326
+    second: Jnt_Tentaculo_I_8
+  - first:
+      1: 100328
+    second: Jnt_Tentaculo_I_7
+  - first:
+      1: 100330
+    second: Jnt_Tentaculo_I_6
+  - first:
+      1: 100332
+    second: Jnt_Tentaculo_I_5
+  - first:
+      1: 100334
+    second: Jnt_Tentaculo_I_4
+  - first:
+      1: 100336
+    second: Jnt_Tentaculo_I_3
+  - first:
+      1: 100338
+    second: Jnt_Tentaculo_I_2
+  - first:
+      1: 100340
+    second: Jnt_Tentaculo_I_1
+  - first:
+      1: 100342
+    second: Jnt_Sifon_01_end_mmm
+  - first:
+      1: 100344
+    second: Jnt_Sifon_01_mmm
+  - first:
+      1: 101070
+    second: Jnt_Manto_R_mmm
+  - first:
+      1: 101072
+    second: //RootNode
+  - first:
+      1: 101082
+    second: joint42
+  - first:
+      1: 101084
+    second: joint41
+  - first:
+      1: 101086
+    second: joint40
+  - first:
+      1: 101088
+    second: Jnt_AliTent_A_9
+  - first:
+      1: 101090
+    second: Jnt_AliTent_A_8
+  - first:
+      1: 101092
+    second: Jnt_AliTent_A_7
+  - first:
+      1: 101094
+    second: Jnt_AliTent_A_6
+  - first:
+      1: 101096
+    second: Jnt_AliTent_A_5
+  - first:
+      1: 101098
+    second: Jnt_AliTent_A_4
+  - first:
+      1: 101100
+    second: Jnt_AliTent_A_3
+  - first:
+      1: 101102
+    second: Jnt_AliTent_A_2
+  - first:
+      1: 101104
+    second: Jnt_AliTent_A_1
+  - first:
+      4: 400000
+    second: Jnt_Sifon_R_mmm
+  - first:
+      4: 400002
+    second: Jnt_Pico_mmm
+  - first:
+      4: 400004
+    second: Jnt_Head_mmm
+  - first:
+      4: 400006
+    second: joint48
+  - first:
+      4: 400008
+    second: joint47
+  - first:
+      4: 400010
+    second: joint46
+  - first:
+      4: 400012
+    second: joint45
+  - first:
+      4: 400042
+    second: Jnt_AliTent_B_2
+  - first:
+      4: 400044
+    second: Jnt_AliTent_B_1
+  - first:
+      4: 400046
+    second: Calamar_Manto
+  - first:
+      4: 400048
+    second: joint44
+  - first:
+      4: 400050
+    second: joint43
+  - first:
+      4: 400052
+    second: Calamar_Ojo_mmr
+  - first:
+      4: 400054
+    second: Calamar_Ojo_mml
+  - first:
+      4: 400056
+    second: joint35
+  - first:
+      4: 400058
+    second: joint50
+  - first:
+      4: 400060
+    second: joint49
+  - first:
+      4: 400062
+    second: joint39
+  - first:
+      4: 400064
+    second: joint38
+  - first:
+      4: 400066
+    second: joint37
+  - first:
+      4: 400068
+    second: joint36
+  - first:
+      4: 400070
+    second: Jnt_Eye_mmr
+  - first:
+      4: 400072
+    second: Jnt_AliTent_B_9
+  - first:
+      4: 400074
+    second: Jnt_AliTent_B_8
+  - first:
+      4: 400076
+    second: Jnt_AliTent_B_7
+  - first:
+      4: 400078
+    second: Jnt_AliTent_B_6
+  - first:
+      4: 400080
+    second: Jnt_AliTent_B_5
+  - first:
+      4: 400082
+    second: Jnt_AliTent_B_4
+  - first:
+      4: 400084
+    second: Jnt_AliTent_B_3
+  - first:
+      4: 400086
+    second: joint1
+  - first:
+      4: 400088
+    second: joint2
+  - first:
+      4: 400090
+    second: Jnt_Eye_mml
+  - first:
+      4: 400092
+    second: Calamar_Cuerpo
+  - first:
+      4: 400094
+    second: Calamar_Pico_Inf
+  - first:
+      4: 400096
+    second: Calamar_Pico_Sup
+  - first:
+      4: 400098
+    second: Jnt_manto_aleron_N_mmr3
+  - first:
+      4: 400100
+    second: Jnt_manto_aleron_N_mmr1
+  - first:
+      4: 400102
+    second: Jnt_Manto_end_mmm
+  - first:
+      4: 400104
+    second: Jnt_Manto_03_mmm 1
+  - first:
+      4: 400106
+    second: Jnt_Manto_04_mmm
+  - first:
+      4: 400108
+    second: Jnt_Manto_03_mmm
+  - first:
+      4: 400110
+    second: Jnt_Manto_02_mmm
+  - first:
+      4: 400112
+    second: Jnt_Manto_01_mmm
+  - first:
+      4: 400114
+    second: Jnt_Tentaculo_D_end_12
+  - first:
+      4: 400116
+    second: Jnt_Tentaculo_D_12
+  - first:
+      4: 400118
+    second: Jnt_Tentaculo_D_11
+  - first:
+      4: 400120
+    second: Jnt_Tentaculo_D_10
+  - first:
+      4: 400122
+    second: Jnt_Tentaculo_D_9
+  - first:
+      4: 400124
+    second: Jnt_Tentaculo_D_8
+  - first:
+      4: 400126
+    second: Jnt_Tentaculo_D_7
+  - first:
+      4: 400128
+    second: Jnt_Tentaculo_D_6
+  - first:
+      4: 400130
+    second: Jnt_Tentaculo_D_5
+  - first:
+      4: 400132
+    second: Jnt_Tentaculo_D_4
+  - first:
+      4: 400134
+    second: Jnt_Tentaculo_D_3
+  - first:
+      4: 400136
+    second: Jnt_Tentaculo_D_2
+  - first:
+      4: 400138
+    second: Jnt_Tentaculo_D_1
+  - first:
+      4: 400140
+    second: Jnt_Tentaculo_H_end_12
+  - first:
+      4: 400142
+    second: Jnt_Tentaculo_H_12
+  - first:
+      4: 400144
+    second: Jnt_Tentaculo_H_11
+  - first:
+      4: 400146
+    second: Jnt_Tentaculo_H_10
+  - first:
+      4: 400148
+    second: Jnt_Tentaculo_H_9
+  - first:
+      4: 400150
+    second: Jnt_Tentaculo_H_8
+  - first:
+      4: 400152
+    second: Jnt_Tentaculo_H_7
+  - first:
+      4: 400154
+    second: Jnt_Tentaculo_H_6
+  - first:
+      4: 400156
+    second: Jnt_Tentaculo_H_5
+  - first:
+      4: 400158
+    second: Jnt_Tentaculo_H_4
+  - first:
+      4: 400160
+    second: Jnt_Tentaculo_H_3
+  - first:
+      4: 400162
+    second: Jnt_Tentaculo_H_2
+  - first:
+      4: 400164
+    second: Jnt_Tentaculo_H_1
+  - first:
+      4: 400166
+    second: Jnt_AliTent_B_Hand_end
+  - first:
+      4: 400168
+    second: Jnt_AliTent_B_Hand
+  - first:
+      4: 400170
+    second: Jnt_AliTent_B_12
+  - first:
+      4: 400172
+    second: Jnt_AliTent_B_11
+  - first:
+      4: 400174
+    second: Jnt_AliTent_B_10
+  - first:
+      4: 400176
+    second: Jnt_Tentaculo_F_13
+  - first:
+      4: 400178
+    second: Jnt_Tentaculo_F_12
+  - first:
+      4: 400180
+    second: Jnt_Tentaculo_F_11
+  - first:
+      4: 400182
+    second: Jnt_Tentaculo_F_10
+  - first:
+      4: 400184
+    second: Jnt_Tentaculo_F_9
+  - first:
+      4: 400186
+    second: Jnt_Tentaculo_F_8
+  - first:
+      4: 400188
+    second: Jnt_Tentaculo_F_7
+  - first:
+      4: 400190
+    second: Jnt_Tentaculo_F_6
+  - first:
+      4: 400192
+    second: Jnt_Tentaculo_F_5
+  - first:
+      4: 400194
+    second: Jnt_Tentaculo_F_4
+  - first:
+      4: 400196
+    second: Jnt_Tentaculo_F_3
+  - first:
+      4: 400198
+    second: Jnt_Tentaculo_F_2
+  - first:
+      4: 400200
+    second: Jnt_Tentaculo_F_1
+  - first:
+      4: 400202
+    second: Jnt_Tentaculo_E_end_12
+  - first:
+      4: 400204
+    second: Jnt_Tentaculo_E_12
+  - first:
+      4: 400206
+    second: Jnt_Tentaculo_E_11
+  - first:
+      4: 400208
+    second: Jnt_Tentaculo_E_10
+  - first:
+      4: 400210
+    second: Jnt_Tentaculo_E_9
+  - first:
+      4: 400212
+    second: Jnt_Tentaculo_E_8
+  - first:
+      4: 400214
+    second: Jnt_Tentaculo_E_7
+  - first:
+      4: 400216
+    second: Jnt_Tentaculo_E_6
+  - first:
+      4: 400218
+    second: Jnt_Tentaculo_E_5
+  - first:
+      4: 400220
+    second: Jnt_Tentaculo_E_4
+  - first:
+      4: 400222
+    second: Jnt_Tentaculo_E_3
+  - first:
+      4: 400224
+    second: Jnt_Tentaculo_E_2
+  - first:
+      4: 400226
+    second: Jnt_Tentaculo_E_1
+  - first:
+      4: 400228
+    second: Jnt_Tentaculo_G_end_12
+  - first:
+      4: 400230
+    second: Jnt_Tentaculo_G_12
+  - first:
+      4: 400232
+    second: Jnt_Tentaculo_G_11
+  - first:
+      4: 400234
+    second: Jnt_Tentaculo_G_10
+  - first:
+      4: 400236
+    second: Jnt_Tentaculo_G_9
+  - first:
+      4: 400238
+    second: Jnt_Tentaculo_G_8
+  - first:
+      4: 400240
+    second: Jnt_Tentaculo_G_7
+  - first:
+      4: 400242
+    second: Jnt_Tentaculo_G_6
+  - first:
+      4: 400244
+    second: Jnt_Tentaculo_G_5
+  - first:
+      4: 400246
+    second: Jnt_Tentaculo_G_4
+  - first:
+      4: 400248
+    second: Jnt_Tentaculo_G_3
+  - first:
+      4: 400250
+    second: Jnt_Tentaculo_G_2
+  - first:
+      4: 400252
+    second: Jnt_Tentaculo_G_1
+  - first:
+      4: 400254
+    second: Jnt_Tentaculo_B_end_12
+  - first:
+      4: 400256
+    second: Jnt_Tentaculo_B_12
+  - first:
+      4: 400258
+    second: Jnt_Tentaculo_B_11
+  - first:
+      4: 400260
+    second: Jnt_Tentaculo_B_10
+  - first:
+      4: 400262
+    second: Jnt_Tentaculo_B_9
+  - first:
+      4: 400264
+    second: Jnt_Tentaculo_B_8
+  - first:
+      4: 400266
+    second: Jnt_Tentaculo_B_7
+  - first:
+      4: 400268
+    second: Jnt_Tentaculo_B_6
+  - first:
+      4: 400270
+    second: Jnt_Tentaculo_B_5
+  - first:
+      4: 400272
+    second: Jnt_Tentaculo_B_4
+  - first:
+      4: 400274
+    second: Jnt_Tentaculo_B_3
+  - first:
+      4: 400276
+    second: Jnt_Tentaculo_B_2
+  - first:
+      4: 400278
+    second: Jnt_Tentaculo_B_1
+  - first:
+      4: 400280
+    second: Jnt_AliTent_A_Hand_end
+  - first:
+      4: 400282
+    second: Jnt_AliTent_A_Hand
+  - first:
+      4: 400284
+    second: Jnt_AliTent_A_12
+  - first:
+      4: 400286
+    second: Jnt_AliTent_A_11
+  - first:
+      4: 400288
+    second: Jnt_AliTent_A_10
+  - first:
+      4: 400290
+    second: Jnt_Tentaculo_A_end_12
+  - first:
+      4: 400292
+    second: Jnt_Tentaculo_A_12
+  - first:
+      4: 400294
+    second: Jnt_Tentaculo_A_11
+  - first:
+      4: 400296
+    second: Jnt_Tentaculo_A_10
+  - first:
+      4: 400298
+    second: Jnt_Tentaculo_A_9
+  - first:
+      4: 400300
+    second: Jnt_Tentaculo_A_8
+  - first:
+      4: 400302
+    second: Jnt_Tentaculo_A_7
+  - first:
+      4: 400304
+    second: Jnt_Tentaculo_A_6
+  - first:
+      4: 400306
+    second: Jnt_Tentaculo_A_5
+  - first:
+      4: 400308
+    second: Jnt_Tentaculo_A_4
+  - first:
+      4: 400310
+    second: Jnt_Tentaculo_A_3
+  - first:
+      4: 400312
+    second: Jnt_Tentaculo_A_2
+  - first:
+      4: 400314
+    second: Jnt_Tentaculo_A_1
+  - first:
+      4: 400316
+    second: Jnt_Tentaculo_I_13
+  - first:
+      4: 400318
+    second: Jnt_Tentaculo_I_12
+  - first:
+      4: 400320
+    second: Jnt_Tentaculo_I_11
+  - first:
+      4: 400322
+    second: Jnt_Tentaculo_I_10
+  - first:
+      4: 400324
+    second: Jnt_Tentaculo_I_9
+  - first:
+      4: 400326
+    second: Jnt_Tentaculo_I_8
+  - first:
+      4: 400328
+    second: Jnt_Tentaculo_I_7
+  - first:
+      4: 400330
+    second: Jnt_Tentaculo_I_6
+  - first:
+      4: 400332
+    second: Jnt_Tentaculo_I_5
+  - first:
+      4: 400334
+    second: Jnt_Tentaculo_I_4
+  - first:
+      4: 400336
+    second: Jnt_Tentaculo_I_3
+  - first:
+      4: 400338
+    second: Jnt_Tentaculo_I_2
+  - first:
+      4: 400340
+    second: Jnt_Tentaculo_I_1
+  - first:
+      4: 400342
+    second: Jnt_Sifon_01_end_mmm
+  - first:
+      4: 400344
+    second: Jnt_Sifon_01_mmm
+  - first:
+      4: 401070
+    second: Jnt_Manto_R_mmm
+  - first:
+      4: 401072
+    second: //RootNode
+  - first:
+      4: 401082
+    second: joint42
+  - first:
+      4: 401084
+    second: joint41
+  - first:
+      4: 401086
+    second: joint40
+  - first:
+      4: 401088
+    second: Jnt_AliTent_A_9
+  - first:
+      4: 401090
+    second: Jnt_AliTent_A_8
+  - first:
+      4: 401092
+    second: Jnt_AliTent_A_7
+  - first:
+      4: 401094
+    second: Jnt_AliTent_A_6
+  - first:
+      4: 401096
+    second: Jnt_AliTent_A_5
+  - first:
+      4: 401098
+    second: Jnt_AliTent_A_4
+  - first:
+      4: 401100
+    second: Jnt_AliTent_A_3
+  - first:
+      4: 401102
+    second: Jnt_AliTent_A_2
+  - first:
+      4: 401104
+    second: Jnt_AliTent_A_1
+  - first:
+      43: 4300000
+    second: Calamar_Cuerpo
+  - first:
+      43: 4300002
+    second: Calamar_Ojo_mml
+  - first:
+      43: 4300004
+    second: Calamar_Ojo_mmr
+  - first:
+      43: 4300006
+    second: Calamar_Manto
+  - first:
+      43: 4300008
+    second: Calamar_Pico_Sup
+  - first:
+      43: 4300010
+    second: Calamar_Pico_Inf
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Calamar_Manto
+  - first:
+      137: 13700002
+    second: Calamar_Ojo_mmr
+  - first:
+      137: 13700004
+    second: Calamar_Ojo_mml
+  - first:
+      137: 13700006
+    second: Calamar_Cuerpo
+  - first:
+      137: 13700008
+    second: Calamar_Pico_Inf
+  - first:
+      137: 13700010
+    second: Calamar_Pico_Sup
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Jnt_Head_mmm
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_Tentaculo_F_1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_AliTent_B_1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_Tentaculo_F_3
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_AliTent_B_3
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_Tentaculo_F_5
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_AliTent_B_4
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_Manto_01_mmm
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_Manto_04_mmm
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_manto_aleron_N_mmr3
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint44
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint35
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint45
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint36
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint47
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint37
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint48
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_Tentaculo_F_6
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint38
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint39
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint40
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jnt_Manto_03_mmm 1
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Squid(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calamar_Cuerpo
+      parentName: Squid(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calamar_Ojo_mml
+      parentName: Squid(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calamar_Ojo_mmr
+      parentName: Squid(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calamar_Manto
+      parentName: Squid(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Calamar_Pico_Sup
+      parentName: Squid(Clone)
+      position: {x: -0, y: 0, z: 0.005226258}
+      rotation: {x: 0, y: -0.092022434, z: -0, w: 0.9957569}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Calamar_Pico_Inf
+      parentName: Squid(Clone)
+      position: {x: 0.00000040233135, y: 0, z: 0.0052265916}
+      rotation: {x: 0, y: 0.059996072, z: -0, w: 0.9981986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Head_mmm
+      parentName: Squid(Clone)
+      position: {x: 0, y: 1.0417343, z: 0.11943936}
+      rotation: {x: 0.53312516, y: -0.41467327, z: 0.3777995, w: 0.6333176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Sifon_R_mmm
+      parentName: Jnt_Head_mmm
+      position: {x: -0.18969958, y: 0.03503166, z: -0.28893736}
+      rotation: {x: 0.8886216, y: 2.8083665e-17, z: -0.45864105, w: 5.441238e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Sifon_01_mmm
+      parentName: Jnt_Sifon_R_mmm
+      position: {x: -0.16098902, y: -0.00096563774, z: -3.3562926e-17}
+      rotation: {x: 0, y: -0.068704925, z: -0, w: 0.99763703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Sifon_01_end_mmm
+      parentName: Jnt_Sifon_01_mmm
+      position: {x: -0.14350605, y: 0.000023420449, z: 0.01752872}
+      rotation: {x: -0.032299608, y: 0.17310843, z: -0.18055418, w: 0.9676727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_1
+      parentName: Jnt_Head_mmm
+      position: {x: 0.11668937, y: 0.048192482, z: 0.16025598}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_2
+      parentName: Jnt_Tentaculo_I_1
+      position: {x: -0.0062672812, y: 0.10099087, z: 0.21824048}
+      rotation: {x: -0.05105878, y: -0.022340313, z: 0.0005460156, w: 0.99844563}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_3
+      parentName: Jnt_Tentaculo_I_2
+      position: {x: 0.00071574695, y: 0.0021087006, z: 0.18161091}
+      rotation: {x: -0.065067016, y: -0.026040139, z: 0.0005574825, w: 0.99754095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_4
+      parentName: Jnt_Tentaculo_I_3
+      position: {x: 0.0012358065, y: 0.0014647815, z: 0.18926737}
+      rotation: {x: -0.00444577, y: 0.01958515, z: 0.0000049930172, w: 0.9997983}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_5
+      parentName: Jnt_Tentaculo_I_4
+      position: {x: 0.001988691, y: 0.0005406754, z: 0.22596368}
+      rotation: {x: 0.1207084, y: 0.10839192, z: -0.0006023367, w: 0.98675245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_6
+      parentName: Jnt_Tentaculo_I_5
+      position: {x: 0.002518167, y: -0.0012910126, z: 0.22985163}
+      rotation: {x: 0.07472413, y: 0.02654454, z: -0.00058441045, w: 0.9968507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_7
+      parentName: Jnt_Tentaculo_I_6
+      position: {x: 0.0030637807, y: -0.0035177832, z: 0.23175316}
+      rotation: {x: -0.010918797, y: -0.03586626, z: -0.0006786322, w: 0.9992967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_8
+      parentName: Jnt_Tentaculo_I_7
+      position: {x: 0.0034212447, y: -0.0053622, z: 0.22794859}
+      rotation: {x: -0.014951118, y: -0.030225258, z: -0.00062777643, w: 0.99943113}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_9
+      parentName: Jnt_Tentaculo_I_8
+      position: {x: 0.0031095175, y: -0.0063920054, z: 0.23169097}
+      rotation: {x: -0.015398752, y: -0.030566674, z: -0.00071481284, w: 0.99941385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_10
+      parentName: Jnt_Tentaculo_I_9
+      position: {x: 0.0015797457, y: -0.0061929156, z: 0.22978005}
+      rotation: {x: -0.017493978, y: -0.035396043, z: -0.0008734112, w: 0.9992199}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_11
+      parentName: Jnt_Tentaculo_I_10
+      position: {x: -0.0006074242, y: -0.0052731433, z: 0.22597775}
+      rotation: {x: -0.010222153, y: -0.026007945, z: -0.0006506754, w: 0.9996093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_12
+      parentName: Jnt_Tentaculo_I_11
+      position: {x: -0.0011170431, y: -0.0044525675, z: 0.19502878}
+      rotation: {x: 0.0048073083, y: -0.0071607064, z: -0.00019635825, w: 0.9999628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_I_13
+      parentName: Jnt_Tentaculo_I_12
+      position: {x: 0.00036332067, y: -0.0066697565, z: 0.23373193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_1
+      parentName: Jnt_Head_mmm
+      position: {x: 0.11569061, y: -0.051250577, z: 0.16025598}
+      rotation: {x: 0, y: 0, z: -0.8560652, w: 0.5168679}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_2
+      parentName: Jnt_Tentaculo_A_1
+      position: {x: -0.016937882, y: 0.09975742, z: 0.21824048}
+      rotation: {x: -0.057507034, y: 0.008357001, z: 0.00030148524, w: 0.9983101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_3
+      parentName: Jnt_Tentaculo_A_2
+      position: {x: 0.0003996353, y: 0.0053541646, z: 0.18154518}
+      rotation: {x: -0.077849075, y: 0.011410567, z: 0.0011505334, w: 0.9968992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_4
+      parentName: Jnt_Tentaculo_A_3
+      position: {x: 0.0015608238, y: 0.0002135211, z: 0.18927051}
+      rotation: {x: 0.0117042065, y: 0.012050395, z: -0.00008614383, w: 0.9998589}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_5
+      parentName: Jnt_Tentaculo_A_4
+      position: {x: 0.0018105382, y: -0.00006130952, z: 0.22596581}
+      rotation: {x: 0.16607106, y: 0.0048722364, z: -0.000044860142, w: 0.98610175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_6
+      parentName: Jnt_Tentaculo_A_5
+      position: {x: 0.001808758, y: -0.0039220136, z: 0.22982848}
+      rotation: {x: 0.08771763, y: -0.019028015, z: -0.0007456862, w: 0.9959634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_7
+      parentName: Jnt_Tentaculo_A_6
+      position: {x: 0.001810755, y: -0.0039242115, z: 0.2317598}
+      rotation: {x: -0.036118034, y: -0.014944869, z: -0.0001603734, w: 0.99923575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_8
+      parentName: Jnt_Tentaculo_A_7
+      position: {x: 0.0018106159, y: -0.007786722, z: 0.22789714}
+      rotation: {x: -0.021354742, y: -0.009474099, z: -0.00009657472, w: 0.9997271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_9
+      parentName: Jnt_Tentaculo_A_8
+      position: {x: 0.00180656, y: -0.0039195945, z: 0.2317598}
+      rotation: {x: -0.03397687, y: -0.0093264915, z: -0.00011112968, w: 0.9993791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_10
+      parentName: Jnt_Tentaculo_A_9
+      position: {x: 0.0018033824, y: -0.0039160973, z: 0.22982848}
+      rotation: {x: -0.04492016, y: -0.006600117, z: -0.00043653598, w: 0.9989687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_11
+      parentName: Jnt_Tentaculo_A_10
+      position: {x: -9.020562e-17, y: -0.005793995, z: 0.22596581}
+      rotation: {x: -0.016790649, y: -0.012605937, z: -0.00021341148, w: 0.9997795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_12
+      parentName: Jnt_Tentaculo_A_11
+      position: {x: 0.0017967218, y: -0.0019774353, z: 0.1950645}
+      rotation: {x: -0.004239583, y: -0.0030513215, z: -0.000012241036, w: 0.99998635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_A_end_12
+      parentName: Jnt_Tentaculo_A_12
+      position: {x: 0.0017996104, y: -0.0077746096, z: 0.23369114}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_1
+      parentName: Jnt_Head_mmm
+      position: {x: -0.036052965, y: 0.18888737, z: 0.15504469}
+      rotation: {x: 0.51035565, y: 0.5198116, z: -0.48875234, w: 0.4800565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_2
+      parentName: Jnt_AliTent_A_1
+      position: {x: -0.23555598, y: -0.004507797, z: -0.041786343}
+      rotation: {x: 0.00035987212, y: -0.05427996, z: 0.012474365, w: 0.9984478}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_3
+      parentName: Jnt_AliTent_A_2
+      position: {x: -0.18830816, y: 0.0011312413, z: -0.011109105}
+      rotation: {x: 0.0001010795, y: -0.021769872, z: -0.003090823, w: 0.99975824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_4
+      parentName: Jnt_AliTent_A_3
+      position: {x: -0.31830004, y: 2.8551787e-17, z: -1.110223e-16}
+      rotation: {x: -0.00000053864113, y: 0.023470473, z: -0.00018139457, w: 0.9997245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_5
+      parentName: Jnt_AliTent_A_4
+      position: {x: -0.40509087, y: -2.1156422e-10, z: 3.8857806e-16}
+      rotation: {x: -0.00000047564794, y: 0.013695029, z: -0.000059209302, w: 0.99990624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_6
+      parentName: Jnt_AliTent_A_5
+      position: {x: -0.4127295, y: -7.986247e-10, z: 1.4988011e-15}
+      rotation: {x: -0.00000013715027, y: 0.007826553, z: 0.000022535743, w: 0.99996936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_7
+      parentName: Jnt_AliTent_A_6
+      position: {x: -0.41630128, y: -3.6002526e-10, z: -2.164935e-15}
+      rotation: {x: 0.0000010634201, y: 0.0063415314, z: 0.000058362937, w: 0.9999799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_8
+      parentName: Jnt_AliTent_A_7
+      position: {x: -0.41253895, y: -0.0000000016780574, z: 9.992007e-16}
+      rotation: {x: 7.1899155e-15, y: 0.005857476, z: 0.00007183274, w: 0.99998283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_9
+      parentName: Jnt_AliTent_A_8
+      position: {x: -0.41458714, y: 2.3160456e-15, z: 1.6653345e-16}
+      rotation: {x: 1.5581852e-15, y: 0.004823768, z: 0.000009857327, w: 0.9999884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_10
+      parentName: Jnt_AliTent_A_9
+      position: {x: -0.41537607, y: 2.3204535e-15, z: 2.220446e-16}
+      rotation: {x: -3.0286557e-14, y: 0.004567554, z: -0.000114276576, w: 0.99998957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_11
+      parentName: Jnt_AliTent_A_10
+      position: {x: -0.41255996, y: 2.304719e-15, z: 2.7755576e-16}
+      rotation: {x: -0.000009853329, y: 0.0076769595, z: -0.0009014098, w: 0.99997014}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_12
+      parentName: Jnt_AliTent_A_11
+      position: {x: -0.4168209, y: -8.004223e-10, z: 2.2759572e-15}
+      rotation: {x: 0.00000016734451, y: -0.046039, z: -0.0003173131, w: 0.9989396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_Hand
+      parentName: Jnt_AliTent_A_12
+      position: {x: -0.43793693, y: -8.004341e-10, z: -1.110223e-14}
+      rotation: {x: -0.00026302092, y: 0.012270113, z: 0.00010620286, w: 0.9999247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: Jnt_AliTent_A_Hand
+      position: {x: -0.5415441, y: 0.0000009842983, z: -0.0030127068}
+      rotation: {x: 0.008726533, y: -0.00000013357658, z: 0.000006925648, w: 0.9999619}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_A_Hand_end
+      parentName: joint2
+      position: {x: -0.4871442, y: -0.0000042184784, z: 0.012847186}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_1
+      parentName: Jnt_Head_mmm
+      position: {x: 0.0562, y: -0.14174804, z: 0.16025598}
+      rotation: {x: 0, y: 0, z: 0.98711836, w: -0.15999168}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_2
+      parentName: Jnt_Tentaculo_B_1
+      position: {x: -0.038293444, y: 0.08289981, z: 0.21824048}
+      rotation: {x: -0.056223392, y: -0.008595313, z: 0.0003949474, w: 0.99838114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_3
+      parentName: Jnt_Tentaculo_B_2
+      position: {x: 0.0003996353, y: 0.0053541646, z: 0.18154518}
+      rotation: {x: -0.08156567, y: -0.011491222, z: 0.0006479682, w: 0.9966015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_4
+      parentName: Jnt_Tentaculo_B_3
+      position: {x: 0.0015608238, y: 0.0002135211, z: 0.18927051}
+      rotation: {x: 0.007593209, y: 0.008809283, z: -0.000030606272, w: 0.9999324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_5
+      parentName: Jnt_Tentaculo_B_4
+      position: {x: 0.0018105382, y: -0.00006130952, z: 0.22596581}
+      rotation: {x: 0.16012515, y: 0.04431371, z: -0.0008620661, w: 0.98610115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_6
+      parentName: Jnt_Tentaculo_B_5
+      position: {x: 0.001808758, y: -0.0039220136, z: 0.22982848}
+      rotation: {x: 0.09000181, y: 0.012066248, z: -0.00057318603, w: 0.9958684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_7
+      parentName: Jnt_Tentaculo_B_6
+      position: {x: 0.001810755, y: -0.0039242115, z: 0.2317598}
+      rotation: {x: -0.031175252, y: -0.014027435, z: -0.000111241796, w: 0.9994155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_8
+      parentName: Jnt_Tentaculo_B_7
+      position: {x: 0.0018106159, y: -0.007786722, z: 0.22789714}
+      rotation: {x: -0.01791818, y: -0.012831018, z: -0.0002151611, w: 0.9997571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_9
+      parentName: Jnt_Tentaculo_B_8
+      position: {x: 0.00180656, y: -0.0039195945, z: 0.2317598}
+      rotation: {x: -0.030573206, y: -0.014450931, z: -0.00010429886, w: 0.9994281}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_10
+      parentName: Jnt_Tentaculo_B_9
+      position: {x: 0.0018033824, y: -0.0039160973, z: 0.22982848}
+      rotation: {x: -0.041343622, y: -0.0134780435, z: -0.0003186511, w: 0.9990541}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_11
+      parentName: Jnt_Tentaculo_B_10
+      position: {x: -1.3877788e-17, y: -0.005793995, z: 0.22596581}
+      rotation: {x: -0.015280205, y: -0.016449729, z: -0.00024751126, w: 0.99974793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_12
+      parentName: Jnt_Tentaculo_B_11
+      position: {x: 0.0017967218, y: -0.0019774353, z: 0.1950645}
+      rotation: {x: -0.0057013254, y: 0.00003044724, z: 0.00007185136, w: 0.9999838}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_B_end_12
+      parentName: Jnt_Tentaculo_B_12
+      position: {x: 0.0017996104, y: -0.0077746096, z: 0.23369114}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_1
+      parentName: Jnt_Head_mmm
+      position: {x: -0.13864282, y: 0.13092794, z: 0.16025598}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_2
+      parentName: Jnt_Tentaculo_G_1
+      position: {x: -0.083112486, y: -0.04415175, z: 0.21824048}
+      rotation: {x: 0.040700126, y: -0.04413401, z: 0.00070789066, w: 0.998196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_3
+      parentName: Jnt_Tentaculo_G_2
+      position: {x: -0.003274882, y: -0.00013592686, z: 0.18159498}
+      rotation: {x: 0.052542955, y: -0.055699803, z: 0.0008782684, w: 0.9970637}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_4
+      parentName: Jnt_Tentaculo_G_3
+      position: {x: -0.0024695091, y: 0.0006302887, z: 0.1892599}
+      rotation: {x: 0.0010335037, y: 0.0048623825, z: -0.00002768315, w: 0.99998766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_5
+      parentName: Jnt_Tentaculo_G_4
+      position: {x: -0.0014494564, y: 0.001686401, z: 0.22596213}
+      rotation: {x: -0.10655573, y: 0.13294616, z: -0.0013154332, w: 0.98537785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_6
+      parentName: Jnt_Tentaculo_G_5
+      position: {x: 0.0006769535, y: 0.002816002, z: 0.22985081}
+      rotation: {x: -0.059009522, y: 0.06479204, z: -0.00042957763, w: 0.99615246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_7
+      parentName: Jnt_Tentaculo_G_6
+      position: {x: 0.0028250166, y: 0.0041257185, z: 0.23174617}
+      rotation: {x: 0.015331149, y: -0.024462882, z: 0.0002680914, w: 0.9995832}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_8
+      parentName: Jnt_Tentaculo_G_7
+      position: {x: 0.004161334, y: 0.005166465, z: 0.2279408}
+      rotation: {x: 0.017036645, y: -0.025117287, z: 0.00021459624, w: 0.9995393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_9
+      parentName: Jnt_Tentaculo_G_8
+      position: {x: 0.004920427, y: 0.0052916156, z: 0.23168734}
+      rotation: {x: 0.017017132, y: -0.027497021, z: 0.000080186765, w: 0.999477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_10
+      parentName: Jnt_Tentaculo_G_9
+      position: {x: 0.0051678135, y: 0.0038097117, z: 0.22977923}
+      rotation: {x: 0.019619403, y: -0.03255509, z: -0.0002280833, w: 0.99927735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_11
+      parentName: Jnt_Tentaculo_G_10
+      position: {x: 0.005146947, y: 0.00143716, z: 0.2259769}
+      rotation: {x: 0.013689259, y: -0.020805359, z: -0.00024879078, w: 0.9996898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_12
+      parentName: Jnt_Tentaculo_G_11
+      position: {x: 0.0045761615, y: 0.00065457216, z: 0.19502802}
+      rotation: {x: -0.000007875769, y: 0.0026618377, z: -0.000032150074, w: 0.9999965}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_G_end_12
+      parentName: Jnt_Tentaculo_G_12
+      position: {x: 0.0059348615, y: 0.0028370682, z: 0.2337348}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_1
+      parentName: Jnt_Head_mmm
+      position: {x: -0.19608293, y: -0.051250577, z: 0.16025598}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_2
+      parentName: Jnt_Tentaculo_E_1
+      position: {x: 0.06069874, y: -0.0740934, z: 0.21824048}
+      rotation: {x: 0.055795934, y: 0.022467066, z: 0.00058536907, w: 0.9981892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_3
+      parentName: Jnt_Tentaculo_E_2
+      position: {x: -0.00044387477, y: -0.0035749732, z: 0.18158883}
+      rotation: {x: 0.070836015, y: 0.028937086, z: 0.00074179453, w: 0.9970679}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_4
+      parentName: Jnt_Tentaculo_E_3
+      position: {x: -0.0011673167, y: -0.0019039549, z: 0.1892639}
+      rotation: {x: -0.004411646, y: -0.000029183737, z: -0.000039951876, w: 0.9999903}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_5
+      parentName: Jnt_Tentaculo_E_4
+      position: {x: -0.002050121, y: -0.00044715288, z: 0.22596332}
+      rotation: {x: -0.16200148, y: -0.060390946, z: -0.0015496037, w: 0.98493963}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_6
+      parentName: Jnt_Tentaculo_E_5
+      position: {x: -0.002640023, y: 0.0011967962, z: 0.22985077}
+      rotation: {x: -0.081898466, y: -0.03242755, z: -0.00078671833, w: 0.9961127}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_7
+      parentName: Jnt_Tentaculo_E_6
+      position: {x: -0.0034685393, y: 0.0030047235, z: 0.23175468}
+      rotation: {x: 0.027723048, y: 0.009752443, z: 0.00032093676, w: 0.99956805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_8
+      parentName: Jnt_Tentaculo_E_7
+      position: {x: -0.0043322365, y: 0.0045507075, z: 0.22795075}
+      rotation: {x: 0.029386874, y: 0.009891882, z: 0.00031650995, w: 0.9995191}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_9
+      parentName: Jnt_Tentaculo_E_8
+      position: {x: -0.004419763, y: 0.0055426396, z: 0.23169155}
+      rotation: {x: 0.0316829, y: 0.008553699, z: 0.0001985109, w: 0.99946135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_10
+      parentName: Jnt_Tentaculo_E_9
+      position: {x: -0.00295778, y: 0.0056698215, z: 0.22977994}
+      rotation: {x: 0.03726122, y: 0.009230408, z: -0.00010440753, w: 0.9992629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_11
+      parentName: Jnt_Tentaculo_E_10
+      position: {x: -0.0006170207, y: 0.005283425, z: 0.22597748}
+      rotation: {x: 0.023915986, y: 0.00716343, z: -0.00017494835, w: 0.9996883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_12
+      parentName: Jnt_Tentaculo_E_11
+      position: {x: 0.0000669254, y: 0.0046019345, z: 0.1950285}
+      rotation: {x: -0.0033848935, y: 0.0012561644, z: -0.0000609222, w: 0.9999935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_E_end_12
+      parentName: Jnt_Tentaculo_E_12
+      position: {x: -0.0018782554, y: 0.006277147, z: 0.23373553}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_1
+      parentName: Jnt_Head_mmm
+      position: {x: -0.19608293, y: 0.048192482, z: 0.15852429}
+      rotation: {x: -0.0069397697, y: 0.021058979, z: -0.82231534, w: 0.56859994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_2
+      parentName: Jnt_Tentaculo_F_1
+      position: {x: 0.013206983, y: -0.09711283, z: 0.21997218}
+      rotation: {x: 0.061243802, y: 0.001960801, z: 0.0007743637, w: 0.9981206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_3
+      parentName: Jnt_Tentaculo_F_2
+      position: {x: -0.002219441, y: -0.0024775942, z: 0.18159409}
+      rotation: {x: 0.07682326, y: 0.0012822312, z: 0.0008385818, w: 0.99704355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_4
+      parentName: Jnt_Tentaculo_F_3
+      position: {x: -0.0019533553, y: -0.0012675545, z: 0.18926273}
+      rotation: {x: -0.003738104, y: -0.0027463932, z: -0.000030482459, w: 0.9999893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_5
+      parentName: Jnt_Tentaculo_F_4
+      position: {x: -0.0019409967, y: 0.0002071345, z: 0.22596464}
+      rotation: {x: -0.15665281, y: -0.019767206, z: -0.03511477, w: 0.98683137}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_6
+      parentName: Jnt_Tentaculo_F_5
+      position: {x: -0.0015969574, y: 0.0023685433, z: 0.2298513}
+      rotation: {x: -0.08806819, y: -0.0012180752, z: -0.0004417443, w: 0.99611366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_7
+      parentName: Jnt_Tentaculo_F_6
+      position: {x: -0.0013264474, y: 0.0047190664, z: 0.23174827}
+      rotation: {x: 0.029404452, y: 0.004329892, z: 0.000017888915, w: 0.99955827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_8
+      parentName: Jnt_Tentaculo_F_7
+      position: {x: -0.0011745226, y: 0.00644167, z: 0.22794329}
+      rotation: {x: 0.030205008, y: 0.0031218447, z: -0.000011871486, w: 0.99953884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_9
+      parentName: Jnt_Tentaculo_F_8
+      position: {x: -0.0006697139, y: 0.0071579004, z: 0.23168848}
+      rotation: {x: 0.03135776, y: 0.0020326744, z: -0.00013577382, w: 0.9995062}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_10
+      parentName: Jnt_Tentaculo_F_9
+      position: {x: 0.00063818455, y: 0.006380572, z: 0.22977945}
+      rotation: {x: 0.036541943, y: 0.0020606027, z: -0.0004118198, w: 0.9993299}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_11
+      parentName: Jnt_Tentaculo_F_10
+      position: {x: 0.0023824307, y: 0.0047721015, z: 0.22597714}
+      rotation: {x: 0.024246268, y: 0.0027869544, z: -0.00037147434, w: 0.9997021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_12
+      parentName: Jnt_Tentaculo_F_11
+      position: {x: 0.002580262, y: 0.003824592, z: 0.19502825}
+      rotation: {x: -0.0019929213, y: 0.0030756502, z: -0.000067142224, w: 0.9999933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_F_13
+      parentName: Jnt_Tentaculo_F_12
+      position: {x: 0.0018738407, y: 0.006295738, z: 0.23373507}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_1
+      parentName: Jnt_Head_mmm
+      position: {x: -0.036052965, y: -0.18888737, z: 0.15504469}
+      rotation: {x: 0.5184118, y: -0.5089346, z: -0.4815024, w: -0.490296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_2
+      parentName: Jnt_AliTent_B_1
+      position: {x: -0.23555598, y: -0.004507797, z: -0.041786343}
+      rotation: {x: 0.0003598523, y: -0.052109208, z: 0.0122349765, w: 0.9985664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_3
+      parentName: Jnt_AliTent_B_2
+      position: {x: -0.18830816, y: 0.0011312413, z: -0.011109105}
+      rotation: {x: 0.00010602117, y: -0.02068009, z: -0.0031631049, w: 0.99978113}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_4
+      parentName: Jnt_AliTent_B_3
+      position: {x: -0.31830004, y: 2.8551787e-17, z: -1.110223e-16}
+      rotation: {x: 0.2943226, y: 0.011539948, z: 0.023582274, w: 0.95534545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_5
+      parentName: Jnt_AliTent_B_4
+      position: {x: -0.40509087, y: -2.1156422e-10, z: 3.8857806e-16}
+      rotation: {x: 0.00000020329435, y: 0.012750104, z: 0.00002530808, w: 0.99991876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_6
+      parentName: Jnt_AliTent_B_5
+      position: {x: -0.4127295, y: -7.986247e-10, z: 1.4988011e-15}
+      rotation: {x: -0.000000035721627, y: 0.0063918103, z: 0.000005868315, w: 0.9999796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_7
+      parentName: Jnt_AliTent_B_6
+      position: {x: -0.41630128, y: -3.6002526e-10, z: -2.164935e-15}
+      rotation: {x: -0.00000003406499, y: 0.0045441967, z: -0.0000018727029, w: 0.9999897}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_8
+      parentName: Jnt_AliTent_B_7
+      position: {x: -0.41253895, y: -0.0000000016780574, z: 9.992007e-16}
+      rotation: {x: -1.0798905e-16, y: 0.0037651036, z: -0.0000055153764, w: 0.9999929}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_9
+      parentName: Jnt_AliTent_B_8
+      position: {x: -0.41458714, y: 2.3160456e-15, z: 1.6653345e-16}
+      rotation: {x: 3.3766984e-16, y: 0.0028835628, z: -0.000001899864, w: 0.9999958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_10
+      parentName: Jnt_AliTent_B_9
+      position: {x: -0.41537607, y: 2.3204535e-15, z: 2.220446e-16}
+      rotation: {x: 8.3110846e-16, y: 0.0023956338, z: 0.000006018663, w: 0.99999714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_11
+      parentName: Jnt_AliTent_B_10
+      position: {x: -0.41255996, y: 2.304719e-15, z: 2.7755576e-16}
+      rotation: {x: 0.00000048320845, y: 0.0038170004, z: 0.000044203964, w: 0.9999927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_12
+      parentName: Jnt_AliTent_B_11
+      position: {x: -0.4168209, y: -8.004223e-10, z: 2.2759572e-15}
+      rotation: {x: 0.00000012020682, y: 0.012651988, z: -0.00022809069, w: 0.99991995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_Hand
+      parentName: Jnt_AliTent_B_12
+      position: {x: -0.43793693, y: -8.004341e-10, z: -1.110223e-14}
+      rotation: {x: -0.00012938971, y: 0.066907845, z: -0.000031002037, w: 0.99775916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint1
+      parentName: Jnt_AliTent_B_Hand
+      position: {x: -0.5299682, y: -0.000022913368, z: -0.119240485}
+      rotation: {x: 6.123234e-17, y: -6.123234e-17, z: 6.123234e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_AliTent_B_Hand_end
+      parentName: joint1
+      position: {x: -0.48144206, y: -0.000021682376, z: -0.079350166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_1
+      parentName: Jnt_Head_mmm
+      position: {x: 0.0562, y: 0.13092794, z: 0.16025598}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_2
+      parentName: Jnt_Tentaculo_H_1
+      position: {x: -0.066211306, y: 0.07651469, z: 0.21824048}
+      rotation: {x: -0.02594328, y: -0.04911523, z: 0.0005773398, w: 0.998456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_3
+      parentName: Jnt_Tentaculo_H_2
+      position: {x: -0.0009929813, y: 0.0023760088, z: 0.18160631}
+      rotation: {x: -0.03537439, y: -0.06163802, z: 0.000557766, w: 0.9974714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_4
+      parentName: Jnt_Tentaculo_H_3
+      position: {x: -0.00011855886, y: 0.00195778, z: 0.1892669}
+      rotation: {x: -0.014560776, y: 0.0116304215, z: -0.0000064424307, w: 0.9998264}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_5
+      parentName: Jnt_Tentaculo_H_4
+      position: {x: 0.0011528292, y: 0.0015376932, z: 0.2259649}
+      rotation: {x: 0.031336904, y: 0.15962812, z: -0.00058187154, w: 0.98667955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_6
+      parentName: Jnt_Tentaculo_H_5
+      position: {x: 0.002906143, y: 0.0003967965, z: 0.22985034}
+      rotation: {x: 0.042103577, y: 0.068199195, z: -0.00057562516, w: 0.9967827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_7
+      parentName: Jnt_Tentaculo_H_6
+      position: {x: 0.0048072627, y: -0.0010041355, z: 0.23174807}
+      rotation: {x: 0.0116604725, y: -0.034233667, z: -0.00064467755, w: 0.99934566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_8
+      parentName: Jnt_Tentaculo_H_7
+      position: {x: 0.00613817, y: -0.0022207105, z: 0.22794388}
+      rotation: {x: 0.0055265143, y: -0.032623325, z: -0.000607026, w: 0.9994523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_9
+      parentName: Jnt_Tentaculo_H_8
+      position: {x: 0.006410897, y: -0.003209715, z: 0.23168908}
+      rotation: {x: 0.005388265, y: -0.033405285, z: -0.00070536515, w: 0.99942714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_10
+      parentName: Jnt_Tentaculo_H_9
+      position: {x: 0.0050232387, y: -0.003971317, z: 0.2297797}
+      rotation: {x: 0.0065079583, y: -0.03861483, z: -0.00087726343, w: 0.9992326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_11
+      parentName: Jnt_Tentaculo_H_10
+      position: {x: 0.002726033, y: -0.004565792, z: 0.22597753}
+      rotation: {x: 0.0067773513, y: -0.026654648, z: -0.0006456483, w: 0.99962157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_12
+      parentName: Jnt_Tentaculo_H_11
+      position: {x: 0.0018215984, y: -0.004221635, z: 0.1950286}
+      rotation: {x: 0.0076516755, y: -0.0021229896, z: -0.0001890004, w: 0.99996847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_H_end_12
+      parentName: Jnt_Tentaculo_H_12
+      position: {x: 0.0042967307, y: -0.0050646937, z: 0.23373301}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_1
+      parentName: Jnt_Head_mmm
+      position: {x: -0.13864282, y: -0.14174804, z: 0.16025598}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_2
+      parentName: Jnt_Tentaculo_D_1
+      position: {x: 0.075540595, y: -0.03929761, z: 0.21824048}
+      rotation: {x: 0.0032425912, y: 0.05294841, z: 0.0009783137, w: 0.99859154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_3
+      parentName: Jnt_Tentaculo_D_2
+      position: {x: 0.0019439118, y: -0.0036344347, z: 0.18157779}
+      rotation: {x: 0.0011545834, y: 0.069238074, z: 0.0008837266, w: 0.9975991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_4
+      parentName: Jnt_Tentaculo_D_3
+      position: {x: 0.0000034012553, y: -0.0022420397, z: 0.18926379}
+      rotation: {x: -0.020758407, y: -0.0018192809, z: -0.00016147163, w: 0.99978286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_5
+      parentName: Jnt_Tentaculo_D_4
+      position: {x: -0.0017718707, y: -0.0012578875, z: 0.22596262}
+      rotation: {x: -0.062295545, y: -0.14540455, z: -0.0009565275, w: 0.9874087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_6
+      parentName: Jnt_Tentaculo_D_5
+      position: {x: -0.00305473, y: -0.00021609075, z: 0.22984865}
+      rotation: {x: 0.00044680884, y: -0.076817796, z: 0.00029059977, w: 0.99704504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_7
+      parentName: Jnt_Tentaculo_D_6
+      position: {x: -0.004570976, y: 0.00080009963, z: 0.23175365}
+      rotation: {x: 0.03146844, y: 0.020930966, z: 0.0006886372, w: 0.99928534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_8
+      parentName: Jnt_Tentaculo_D_7
+      position: {x: -0.0060671777, y: 0.0016386361, z: 0.2279507}
+      rotation: {x: 0.025202211, y: 0.023371648, z: 0.00047794165, w: 0.999409}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_9
+      parentName: Jnt_Tentaculo_D_8
+      position: {x: -0.0066573196, y: 0.002440741, z: 0.23169151}
+      rotation: {x: 0.026701342, y: 0.023787891, z: 0.00029356495, w: 0.9993603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_10
+      parentName: Jnt_Tentaculo_D_9
+      position: {x: -0.0054741846, y: 0.0033089416, z: 0.2297799}
+      rotation: {x: 0.030912764, y: 0.027124003, z: -0.000055726527, w: 0.99915403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_11
+      parentName: Jnt_Tentaculo_D_10
+      position: {x: -0.003273347, y: 0.0041948506, z: 0.22597745}
+      rotation: {x: 0.021077061, y: 0.017575864, z: -0.00010525353, w: 0.99962336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_12
+      parentName: Jnt_Tentaculo_D_11
+      position: {x: -0.0023347223, y: 0.003967744, z: 0.19502847}
+      rotation: {x: 0.003936159, y: -0.0022186772, z: 0.00012362578, w: 0.9999898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Tentaculo_D_end_12
+      parentName: Jnt_Tentaculo_D_12
+      position: {x: -0.0048673227, y: 0.0043887314, z: 0.23373549}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Eye_mml
+      parentName: Jnt_Head_mmm
+      position: {x: -0.00000017231329, y: -0.26454115, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Eye_mmr
+      parentName: Jnt_Head_mmm
+      position: {x: -0.00000022074207, y: 0.26454115, z: 8.881784e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Manto_R_mmm
+      parentName: Jnt_Head_mmm
+      position: {x: -0.036052965, y: 0.020171, z: -0.1917129}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Manto_01_mmm
+      parentName: Jnt_Manto_R_mmm
+      position: {x: -9.089951e-16, y: 5.1754476e-22, z: -0.18255676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0215446, y: 1.0215446, z: 1}
+    - name: Jnt_Manto_02_mmm
+      parentName: Jnt_Manto_01_mmm
+      position: {x: 1.0408341e-17, y: 3.3065215e-23, z: -0.20662}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0430892, y: 1.0430892, z: 1}
+    - name: Jnt_Manto_03_mmm
+      parentName: Jnt_Manto_02_mmm
+      position: {x: 3.469447e-18, y: -6.854339e-22, z: -0.14927}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0825157, y: 1.0825157, z: 1}
+    - name: Jnt_Manto_04_mmm
+      parentName: Jnt_Manto_03_mmm
+      position: {x: 8.951173e-16, y: 1.3482394e-22, z: -0.16348246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1219423, y: 1.1219423, z: 1}
+    - name: Jnt_Manto_03_mmm 1
+      parentName: Jnt_Manto_04_mmm
+      position: {x: 0.00755893, y: -0.000000256912, z: -0.66099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_manto_aleron_N_mmr1
+      parentName: Jnt_Manto_03_mmm 1
+      position: {x: -0.19141652, y: -0.012869985, z: 0.019531885}
+      rotation: {x: -0.013914197, y: -0.69522613, z: 0.011580791, w: 0.7185631}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint43
+      parentName: Jnt_manto_aleron_N_mmr1
+      position: {x: -0.15135078, y: 0.00000029910578, z: -0.010568686}
+      rotation: {x: 0.005811739, y: -0.08973644, z: -0.06127016, w: 0.9940621}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint44
+      parentName: joint43
+      position: {x: -0.1587251, y: -8.6736174e-19, z: -1.110223e-16}
+      rotation: {x: 0.033111863, y: -0.40586755, z: -0.109729156, w: 0.9067164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint45
+      parentName: joint44
+      position: {x: -0.18286231, y: -1.7347235e-18, z: -2.220446e-16}
+      rotation: {x: 0.085727505, y: 0.2269583, z: 0.030678034, w: 0.9696389}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint46
+      parentName: joint45
+      position: {x: -0.17331919, y: -4.6156576e-10, z: 0}
+      rotation: {x: 0.039452128, y: -0.8537166, z: -0.023945216, w: 0.5186888}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint47
+      parentName: joint46
+      position: {x: -0.17335944, y: 7.806256e-18, z: 4.440892e-16}
+      rotation: {x: -0.07655826, y: 0.4924793, z: -0.0025555787, w: 0.8669466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint48
+      parentName: joint47
+      position: {x: -0.18286642, y: 0.0000000032814398, z: 2.220446e-16}
+      rotation: {x: -0.004106299, y: -0.1161308, z: 0.03725152, w: 0.99252665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint49
+      parentName: joint48
+      position: {x: -0.1587233, y: 0, z: -3.330669e-16}
+      rotation: {x: 0.0028445418, y: -0.062876984, z: -0.053407013, w: 0.9965872}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint50
+      parentName: joint49
+      position: {x: -0.15172216, y: -5.2041704e-18, z: 0}
+      rotation: {x: 0.0000062132685, y: 0.9999979, z: -0.00017498122, w: 0.0020250652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_manto_aleron_N_mmr3
+      parentName: Jnt_Manto_03_mmm 1
+      position: {x: -0.21993925, y: -0.01156129, z: 0.0030075712}
+      rotation: {x: -0.14044118, y: -0.07501947, z: 0.15561181, w: 0.9749018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint35
+      parentName: Jnt_manto_aleron_N_mmr3
+      position: {x: -0.14381102, y: 0.000026495782, z: -0.01872293}
+      rotation: {x: -0.008938549, y: 0.01897404, z: 0.035623416, w: 0.9991452}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint36
+      parentName: joint35
+      position: {x: -0.16432086, y: 0, z: 0}
+      rotation: {x: -0.0007491276, y: 0.0030139764, z: 0.003754377, w: 0.9999882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint37
+      parentName: joint36
+      position: {x: -0.21383041, y: -8.6736174e-19, z: 0}
+      rotation: {x: 0.00068518554, y: 0.020162841, z: 0.03340674, w: 0.9992382}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint38
+      parentName: joint37
+      position: {x: -0.27670795, y: -4.6565968e-10, z: 4.440892e-16}
+      rotation: {x: -0.05481651, y: 0.01323972, z: -0.038388018, w: 0.9976705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint39
+      parentName: joint38
+      position: {x: -0.2767084, y: -1.2143064e-17, z: 0}
+      rotation: {x: 0.00067858136, y: 0.020487666, z: 0.033084974, w: 0.9992423}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint40
+      parentName: joint39
+      position: {x: -0.21383049, y: -3.8492737e-10, z: 0}
+      rotation: {x: 0.0020533977, y: -0.07661673, z: -0.0198758, w: 0.9968604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint41
+      parentName: joint40
+      position: {x: -0.16432086, y: 0, z: 1.110223e-16}
+      rotation: {x: 0.0014651488, y: -0.17836742, z: -0.0077127037, w: 0.9839327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint42
+      parentName: joint41
+      position: {x: -0.14502418, y: 0, z: 1.110223e-16}
+      rotation: {x: 0.00017027225, y: 0.9490953, z: 0.000084400475, w: -0.31498906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jnt_Pico_mmm
+      parentName: Jnt_Head_mmm
+      position: {x: -0.036052965, y: -2.893006e-16, z: 0.44903374}
+      rotation: {x: 6.133174e-18, y: -3.679905e-18, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
