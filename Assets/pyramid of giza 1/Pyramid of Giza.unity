@@ -9262,6 +9262,10 @@ PrefabInstance:
       propertyPath: m_RenderPostProcessing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1294645137804913013, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
+      propertyPath: navMeshDistanceTolerance
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2627278854448654021, guid: 913a95e99f5e3e04eb71f0cd6db83f1b, type: 3}
       propertyPath: menuManager
       value: 
@@ -20805,7 +20809,7 @@ Transform:
   m_GameObject: {fileID: 857398745}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50439197, y: -0.4955693, z: -0.49556923, w: 0.5043918}
-  m_LocalPosition: {x: 4.4, y: 1.5600014, z: 3.91}
+  m_LocalPosition: {x: 4.36, y: 1.5600014, z: 1.6}
   m_LocalScale: {x: 204.06297, y: 270.5172, z: 75.343}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33199,7 +33203,7 @@ MonoBehaviour:
   deadZone: 0.15
   locomotionLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   groundCheckDistance: 1.5
   navMeshDistanceTolerance: 0.5
 --- !u!1 &1408592768
