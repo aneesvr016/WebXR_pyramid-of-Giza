@@ -12,6 +12,10 @@ EditorBuildSettings:
     path: Assets/Metaverse/Spaces/AvatarSelection/Scenes/AvatarSelection.unity
     guid: b89ebdf1b470bdd45aad24418c48162c
   - enabled: 1
+    path: Assets/Aquarium Project/Ocean of the world aquarium/Ocean of the world
+      aquarium.unity
+    guid: 4aeb3d3f7b94d9f40a2b0bbe5cfd1675
+  - enabled: 0
     path: Assets/Manta_Ray_Exhibit/Manta Ray Shoal SSU.unity
     guid: ac0a81700f47f1c45a728f3dfe0f68ca
   - enabled: 0
